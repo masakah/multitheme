@@ -44,52 +44,85 @@
   </div>
 </section>
 
-<section id="top-about">
-
-<mt:Folders>
-  <mt:setvarblock name="description"><mt:folderdescription></mt:setvarblock>
-  <mt:unless name="description" eq="footer_link">
   <section class="webpages">
     <div class="container">
-      <h3><mt:FolderLabel></h3>
-      <p class="webpage-lead"><mt:folderdescription></p>
-      <mt:pages>
-      <mt:If name="__counter__" op="%" value="4" eq="1"><div class="row"></mt:If>
-        <div class="col-sm-4">
-          <h4><i class="fa fa-lg glyphicon fa-tag"></i><mt:pagetitle></h4>
-          <p><mt:pageexcerpt></p>
-          <p class="page-detail"><a href="<mt:pagepermalink>" class="btn btn-primary">詳細を見る</a></p>
-        </div>
-      <mt:If name="__counter__" op="%" value="4" eq="0"></div></mt:If>
-      <mt:If name="__last__"><mt:If name="__counter__" op="%" value="4" ne="0"></div></mt:If></mt:If>
-      </mt:pages>
+      <h3>WELCOME!!</h3>
+	  <div class="row">
+		  <div class="col-sm-12">
+		  <p>てすとてすとてすと</p>
+		  </div>
+	  </div>
     </div>
   </section>
-  </mt:unless>
-</mt:Folders>
 
-</section>
 
-<section id="top-news">
-  <div class="container">
-    <h3>最新ニュース</h3>
-    <div class="row">
-    <mt:entries lastn="4">
-      <a href="<mt:entrypermalink>" class="col-sm-3">
-        <mt:EntryAssets type="image" sort_order="ascend" limit="1">
-           <figure><img src="<$mt:AssetThumbnailURL width="320"$>" alt="<mt:entrytitle>"></figure>
-        <mt:Else>
-           <figure class="noimage"><span>No image</span></mt:unless></figure>
-        </mt:EntryAssets>
-        <div class="entry-detail">
-          <h1><mt:entrytitle></h1>
-          <p class="entry-excerpt"><mt:entryexcerpt></p>
-        </div>
-      </a>
-    </mt:entries>
+  <section class="webpages" id="about">
+    <div class="container">
+      <h3>ABOUT US</h3>
+	  <div class="row">
+		  <div class="col-sm-12">
+		  		<div class="col-sm-4">
+		  			<p><img src="/images/logo.png" alt="" class="img-circle center-block" /></p>
+			  		<p>てすとてすとてすとてすとてすとてすと<br />てすとてすとてすとてすとてすとてすと</p>
+		  		</div>
+		  		<div class="col-sm-8">
+			  		<p>てすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすと</p>
+		  		</div>
+		  </div>
+		  <div class="col-sm-12">
+		  		<div class="col-sm-4">
+		  			<p><img src="/images/logo.png" alt="" class="img-circle center-block" /></p>
+			  		<p>てすとてすとてすとてすとてすとてすと<br />てすとてすとてすとてすとてすとてすと</p>
+		  		</div>
+		  		<div class="col-sm-8">
+			  		<p>てすとてすとてすてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとと</p>
+		  		</div>
+		  </div>
+	  </div>
     </div>
-  </div>
-</section>
+  </section>
+  
+  <section class="webpages" id="menu">
+    <div class="container">
+      <h3>MENU</h3>
+	  <div class="row">
+		  <div class="col-sm-12">
+		  <p>てすとてすとてすと</p>
+		  </div>
+	  </div>
+    </div>
+  </section>
+  
+  <section class="webpages" id="access">
+    <div class="container">
+      <h3>ACCESS</h3>
+	  <div class="row">
+		  <div class="col-sm-12">
+		  <p>てすとてすとてすと</p>
+		  </div>
+	  </div>
+    </div>
+  </section>
+  <section class="webpages" id="contact">
+    <div class="container">
+      <h3>CONTACT</h3>
+	  <div class="row">
+		  <div class="col-sm-12">
+		  <p>てすとてすとてすと</p>
+		  </div>
+	  </div>
+    </div>
+  </section>
+  <section class="webpages">
+    <div class="container">
+      <h3>FACEBOOK</h3>
+	  <div class="row">
+		  <div class="col-sm-12">
+		  <p>てすとてすとてすと</p>
+		  </div>
+	  </div>
+    </div>
+  </section>
 
 <mt:include module="footer">
 
