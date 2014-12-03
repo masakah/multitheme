@@ -68,12 +68,12 @@
 					return;
 				targetBody.animate(
 					{
-						scrollTop: offset.top
+						scrollTop: offset.top - 50
 					},
 					params.duration,
 					params.easing,
 					function() {
-						location.hash = targetHash;
+						location.hash = targetHash + 1;
 					}
 				);
 
