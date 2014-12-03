@@ -38,3 +38,5 @@ elements:
             label: common_bottom_js
           template_11911:
             label: footer
+          header_child:
+            label: header_child
