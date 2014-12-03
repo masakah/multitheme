@@ -11,10 +11,9 @@
       <mt:if name="google"><li class="googleplus"><a href="<mt:getvar name="google">"><i class="fa fa-google"></i></a></li></mt:if>
     </ul>
     <ul class="nav navbar-nav">
-      <li><a href="#about">ABOUT US</a></li>
-      <li><a href="#menu">MENU</a></li>
-      <li><a href="#access">ACCESS</a></li>
-      <li><a href="#contact">CONTACT</a></li>
+      <mt:Pages>
+            <li><a href="#<$MTPageBasename$>"><$mt:PageTitle$></a></li>
+	  </mt:Pages>
       <li><a href="/blog/">BLOG</a></li>
 
     </ul>
