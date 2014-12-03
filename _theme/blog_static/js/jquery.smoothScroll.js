@@ -73,7 +73,7 @@
 					params.duration,
 					params.easing,
 					function() {
-						location.hash = targetHash + 1;
+						location.hash = targetHash;
 					}
 				);
 

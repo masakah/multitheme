@@ -25,12 +25,6 @@ elements:
             label: common.js
             outfile: common.js
             rebuild_me: 1
-        individual:
-          entry:
-            label: 記事
-            mappings:
-              individual:
-                archive_type: Individual
         module:
           template_11902:
             label: header
