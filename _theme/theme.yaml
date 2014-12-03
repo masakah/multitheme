@@ -1,4 +1,4 @@
-id: simplecorporate
+id: simpleproduct
 elements:
   blog_static_files:
     component: ~
@@ -12,33 +12,10 @@ elements:
       base_path: templates
       label: 'exported_template set'
       templates:
-        archive:
-          category_entry_listing:
-            label: カテゴリ別記事リスト
-            mappings:
-              category:
-                archive_type: Category
-          yearly_entry_listing:
-            label: 年別ブログ記事リスト
-            mappings:
-              yearly:
-                archive_type: Yearly
         index:
-          feed_recent:
-            label: 最新記事のフィード
-            outfile: atom.xml
-            rebuild_me: 1
           index_page:
             label: インデックスページ
             outfile: index.html
-            rebuild_me: 1
-          javascript:
-            label: JavaScript
-            outfile: mt.js
-            rebuild_me: 1
-          main_index:
-            label: 'ニュース TOP'
-            outfile: news.html
             rebuild_me: 1
           styles:
             label: スタイルシート
@@ -57,10 +34,6 @@ elements:
         module:
           template_11902:
             label: header
-          template_11905:
-            label: blog-sidemenu
-          template_11906:
-            label: entry-list
           template_11907:
             label: config
           template_11908:
@@ -71,9 +44,3 @@ elements:
             label: common_bottom_js
           template_11911:
             label: footer
-        page:
-          page:
-            label: ウェブページ
-            mappings:
-              page:
-                archive_type: Page
