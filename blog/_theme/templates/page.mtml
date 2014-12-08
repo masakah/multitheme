@@ -33,38 +33,12 @@
 
 <mt:include module="header">
 
-<section id="localnavi">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <nav role="navigation" class="breadcrumb">
-          <ul class="clearfix">
-            <li class="home"><a href="<mt:blogrelativeurl>"><i class="fa fa-home fa-lg"></i></a></li>
-            <mt:if name="thisfloder">
-            <li class="pagetop">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><mt:PageFolder><mt:FolderLabel></mt:PageFolder><i class="fa fa-caret-down fa-sm"></i></a>
-              <ul class="dropdown-menu">
-              <mt:pages folder="$thisfloder">
-              <mt:setvarblock name="pagetitle"><mt:pagetitle></mt:setvarblock>
-                <li<mt:if name="thispage" eq="$pagetitle"> class="active"</mt:if>><a href="<mt:pagepermalink>"><mt:pagetitle></a></li>
-              </mt:pages>
-              </ul>
-            </li>
-            </mt:if>
-            <li><span><mt:pagetitle></span></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-</div>
-</section>
-
 <section id="mainvisual-lower">
   <div class="overray"></div>
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h2><i class="fa fa-tag"></i><mt:pagetitle></h2>
+        <h2><i class="fa fa-book"></i><a href="<mt:blogurl encode_html="1">"><mt:blogname encode_html="1"></a></h2>
       </div>
     </div>
   </div>
