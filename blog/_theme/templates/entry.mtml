@@ -17,11 +17,11 @@
 <meta property="og:url" content="<mt:entrypermalink encode_html="1">">
 <meta property="og:description" content="<mt:entryexcerpt>">
 <meta property="og:site_name" content="<mt:blogname encode_html="1">">
-<meta property="og:image" content="<mt:EntryAssets type="image" sort_order="ascend" limit="1"><$mt:AssetThumbnailURL width="240"$><mt:else><mt:blogurl encode_html="1">images/ogimage.png</mt:EntryAssets>">
+<meta property="og:image" content="<mt:EntryAssets type="image" sort_order="ascend" limit="1"><$mt:AssetThumbnailURL width="480"$><mt:else><mt:blogurl encode_html="1">images/ogimage.png</mt:EntryAssets>">
 <!-- Microdata -->
 <meta itemprop="description" content="<mt:entryexcerpt>">
 <link itemprop="url" href="<mt:entrypermalink encode_html="1">">
-<link itemprop="image" href="<mt:EntryAssets type="image" sort_order="ascend" limit="1"><$mt:AssetThumbnailURL width="240"$></mt:EntryAssets>">
+<link itemprop="image" href="<mt:EntryAssets type="image" sort_order="ascend" limit="1"><$mt:AssetThumbnailURL width="480"$></mt:EntryAssets>">
 <mt:include module="common_stylesheet">
 <mt:include module="common_head_js">
 </head>
@@ -32,27 +32,13 @@
 
 <mt:include module="header">
 
-<section id="localnavi">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <nav role="navigation" class="breadcrumb">
-          <ul class="clearfix">
-            <li class="home"><a href="<mt:blogrelativeurl>"><i class="fa fa-home fa-lg"></i></a></li>
-            <li><a href="<mt:blogrelativeurl>news.html">ニュース</a></li>
-            <li><span><mt:entrytitle></span></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-</div>
-</section>
 
 <section id="mainvisual-lower">
+  <div class="overray"></div>
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h2><i class="fa fa-book"></i>ニュース</h2>
+        <h2><i class="fa fa-book"></i><a href="<mt:blogurl encode_html="1">"><mt:blogname encode_html="1"></a></h2>
       </div>
     </div>
   </div>
