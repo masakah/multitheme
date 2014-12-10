@@ -44,10 +44,6 @@ elements:
             label: スタイルシート
             outfile: styles.css
             rebuild_me: 1
-          template_11973:
-            label: common.js
-            outfile: common.js
-            rebuild_me: 1
         individual:
           entry:
             label: 記事
