@@ -22,15 +22,15 @@ elements:
             outfile: styles.css
             rebuild_me: 1
         module:
-          template_11902:
+          header:
             label: header
-          template_11907:
+          config:
             label: config
-          template_11908:
+          common_stylesheet:
             label: common_stylesheet
-          template_11909:
+          common_head_js:
             label: common_head_js
-          template_11910:
+          common_bottom_js:
             label: common_bottom_js
-          template_11911:
+          footer:
             label: footer
